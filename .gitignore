@@ -1,0 +1,27 @@
+# Editor directories and files
+.idea
+
+# Package Manager
+node_modules
+.pnpm-debug.log*
+
+# System
+.DS_Store
+
+# Bundle
+dist
+
+
+
+# local env files
+*.local
+.eslintcache
+tmp
+docs/.vitepress/cache
+
+
+# lock
+#package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
