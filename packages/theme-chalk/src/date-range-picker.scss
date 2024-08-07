@@ -1,0 +1,7 @@
+@use 'mixins/mixins' as *;
+
+@include b(date-range-picker) {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
