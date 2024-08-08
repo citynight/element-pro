@@ -10,4 +10,7 @@ declare module 'vue' {
   }
 }
 
-export type { DateRangePickerProps } from './src/date-range-picker.ts'
+export type {
+  DateRangePickerProps,
+  ModleValueType
+} from './src/date-range-picker.ts'

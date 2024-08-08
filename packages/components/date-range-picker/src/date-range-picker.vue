@@ -17,6 +17,13 @@
     <el-button
       :size="size"
       type="primary"
+      :plain="selectedRange !== 'last7Days'"
+      @click="handleRangeChange('last7Days')"
+      >Last 7 Days</el-button
+    >
+    <el-button
+      :size="size"
+      type="primary"
       :plain="selectedRange !== 'last30Days'"
       @click="handleRangeChange('last30Days')"
       >Last 30 Days</el-button
@@ -107,6 +114,7 @@ const updateModel = (value: dayjs.Dayjs[]) => {
     list = value.map(item => item.valueOf())
   }
   emit('update:modelValue', list)
+  emit('change', list)
 }
 
 const setDefaultRange = () => {

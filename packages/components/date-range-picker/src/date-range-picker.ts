@@ -25,7 +25,8 @@ export const dateRangePickerProps = {
 } as const
 
 export const dateRangePickerEmits = {
-  'update:modelValue': (value: ModleValueType) => value.length === 2
+  'update:modelValue': (value: ModleValueType) => value.length === 2,
+  change: (value: ModleValueType) => value.length === 2
 }
 
 export type DateRangePickerProps = ExtractPropTypes<typeof dateRangePickerProps>
