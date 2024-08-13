@@ -6,7 +6,7 @@ const DateRangePicker = withInstall(_DateRangePicker)
 export default DateRangePicker
 declare module 'vue' {
   export interface GlobalComponents {
-    EDateRangePicker: typeof DateRangePicker
+    EPDateRangePicker: typeof DateRangePicker
   }
 }
 

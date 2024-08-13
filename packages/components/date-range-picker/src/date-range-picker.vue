@@ -53,7 +53,7 @@ import {
 import { createNamespace } from '@element-pro/utils/create'
 
 defineOptions({
-  name: 'EDateRangePicker'
+  name: 'EPDateRangePicker'
 })
 
 const bem = createNamespace('date-range-picker')

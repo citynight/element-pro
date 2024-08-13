@@ -13,28 +13,27 @@ module.exports = {
     },
     nav: [
       { text: '指南', link: '/guide/installation' },
-      { text: '组件', link: '/components/icon' },
-
+      { text: '组件', link: '/components/icon' }
     ],
     sidebar: {
-      "/guide/": [
+      '/guide/': [
         {
           text: '指南',
           items: [
             { text: '安装', link: '/guide/installation' },
-            { text: '快速上手', link: '/guide/quick-start' },
+            { text: '快速上手', link: '/guide/quick-start' }
           ]
-        },
+        }
       ],
-      "/components/": [
+      '/components/': [
         {
           text: '组件',
           items: [
             { text: 'Icon 图标', link: '/components/icon' },
+            { text: '日期范围选择', link: '/components/date-range-picker' }
           ]
-        },
-      ],
+        }
+      ]
     }
-
   }
 }

@@ -1,0 +1,11 @@
+@use 'mixins/mixins' as *;
+
+@include b(value-range-input) {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  @include e(separator) {
+    margin: 0 4px;
+  }
+}
