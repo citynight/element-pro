@@ -20,6 +20,7 @@
     "@element-pro/components": "workspace:^",
     "@element-pro/theme-chalk": "workspace:^",
     "@element-pro/utils": "workspace:^",
+    "@vueuse/core": "^11.0.3",
     "dayjs": "^1.11.12",
     "element-plus": "^2.7.8",
     "eslint-plugin-prettier": "^5.2.1",
