@@ -32,7 +32,6 @@ const schemas: FormSchema[] = [
     componentProps: {
       placeholder: '请输入手机号码',
       showButton: false,
-      oninput: "value=value.replace(/[^0-9]/g,'')"
     },
     componentEvent: {
       input: (value: string | number) => {

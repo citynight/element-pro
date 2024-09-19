@@ -63,8 +63,7 @@ export function useFormEvents({
 
   //清空校验
   async function clearValidate() {
-    // @ts-ignore
-    await unref(formElRef)?.restoreValidation()
+    await unref(formElRef)?.clearValidate()
   }
 
   //重置
